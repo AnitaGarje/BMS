@@ -1,0 +1,68 @@
+.navbar{
+	min-height: 30px;
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+/*#navhreaf1,#navhreaf2,#navhreaf3,#navhreaf4,#navhreaf5,#navhreaf6,
+#navhreaf7,#navhreaf8,#navhreaf9,#navhreaf10,#navhreaf11,#navhreaf12,
+.navbar-brand{
+padding:5px 15px 5px 15px;
+}*/
+
+.navbar-default .navbar-nav>li>a{
+	color: white;
+	padding:5px 15px 5px 15px;
+
+}
+.navbar-default {
+	background-color:#e40046; 
+}
+.navbar-default .navbar-brand{
+color: white;
+height: 20px;
+padding:5px 15px 5px 15px;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+#leftcarousel,#rightcarousel{
+	opacity: 0.5;
+}
+#righticon,#lefticon{
+	z-index: 1;
+}
+
+/*#play-video { position:absolute; top: 25px; left: 25px; z-index: 1; } */
+.cir { position:absolute; top: 162px; left: 520px; z-index: 3; } 
+
+.tri{
+
+	width:0px;
+	height: 0px;
+	border-top: 30px solid transparent;
+	/*border-right: 50px solid blue; */
+	border-bottom: 30px solid transparent; 
+	border-left: 30px solid gray;   
+	position:absolute; top: 180px; left: 560px; z-index: 4;
+	fill:white;
+	stroke:gray;
+}
+
+.modal-body ,.modal-content,.modal-dialog{
+    /* 80% of window height */
+    height: 80%;
+}
+
+
+div>iframe {
+    position:absolute;
+    
+    min-height:100%;
+    display:block;
+ 
+
+    min-width:100%;
+}
